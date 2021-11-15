@@ -12,8 +12,7 @@ yva#0001 if you need anything
 
 
 if game.PlaceId == 4528239858 then
-loadstring(game:httpget("https://raw.githubusercontent.com/yvaaa/sleepers-hub/main/lawnmowingsimulator.lua"))()
-else 
-if game.PlaceId == 7444263453 then
-loadstring(game:httpget("https://raw.githubusercontent.com/yvaaa/sleepers-hub/main/jetpackjumpers.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yvaaa/sleepers-hub/main/lawnmowingsimulator.lua"))()
+elseif game.PlaceId == 7444263453 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yvaaa/sleepers-hub/main/jetpackjumpers.lua"))()
 end
